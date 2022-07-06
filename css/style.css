@@ -33,14 +33,15 @@ section {
     color: white;
     padding: 0 60px;
 }
-.banner-inner a {
+.common-button {
     font-size: 18px;
     color: white;
     text-decoration: none;
     background-color: #ff5959;
     padding: 15px 25px;
+    border: none;
     border-radius: 8px;
-    
+    cursor: pointer;    
 }
             /* banner end */
 
@@ -76,6 +77,8 @@ section {
     padding: 0 15px;
     outline: none;
     border: none;
-    border-bottom: 1px solid ;
+    border-bottom: 1px solid;
+    margin-bottom: 15px;
 }
+
             /* donate today section end */
