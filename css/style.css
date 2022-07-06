@@ -1,6 +1,40 @@
-/* font-family: 'Gentium Book Plus', serif;
-font-family: 'Poppins', sans-serif; */
-
 body {
     font-family: 'Gentium Book Plus', serif;
+    margin: 0;
 }
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+            /* banner start*/
+.banner {
+    background-image: url(../images/donation.jpg);
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.banner-inner {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 180px;
+}
+.banner-inner h1 {
+    font-size: 65px;
+    color: white;
+}
+.banner-inner p {
+    font-size: 18px;
+    color: white;
+    padding: 0 60px;
+}
+.banner-inner a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    background-color: #ff5959;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-left: 50%;
+}
+            /* banner end */
