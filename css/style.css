@@ -135,11 +135,14 @@ section {
 .gallery-image img {
     width: 100%;
 }
-
-
-
-
-
-
-
             /* gallery section end */
+.top-doner {
+    display: flex;
+    text-align: center;
+}
+.single-image {
+    width: 25%;
+}
+.single-image img {
+    width: 100%;
+}
