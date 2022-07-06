@@ -156,3 +156,14 @@ section {
 }
 
             /* email form secton end */
+
+            /* footer start */
+footer {
+    background-color: #0b0d17;
+    color: white;
+    text-align: center;
+}
+.footer-contents {
+    padding: 30px 0;
+}
+            /* footer end */
