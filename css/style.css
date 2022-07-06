@@ -79,7 +79,7 @@ section {
 .amount h3:hover {
     border: 2px solid #ff5959;
 }
-.donation-from input {
+.common-form input {
     width: 50%;
     height: 50px;
     padding: 0 15px;
@@ -136,6 +136,8 @@ section {
     width: 100%;
 }
             /* gallery section end */
+
+            /* top dones section start */
 .top-doner {
     display: flex;
     text-align: center;
@@ -146,3 +148,11 @@ section {
 .single-image img {
     width: 100%;
 }
+            /* top dones section end */
+
+            /* email form secton start */
+.email-input {
+    border-bottom: 0;
+}
+
+            /* email form secton end */
