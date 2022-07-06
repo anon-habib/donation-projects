@@ -70,4 +70,12 @@ section {
 .amount h3:hover {
     border: 2px solid #ff5959;
 }
+.donation-from input {
+    width: 50%;
+    height: 50px;
+    padding: 0 15px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid ;
+}
             /* donate today section end */
