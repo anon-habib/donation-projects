@@ -12,7 +12,7 @@ section {
 }
             /* banner start*/
 .banner {
-    background-image: url(../images/donation.jpg);
+    background-image: url(../images/donation-banner.jpg);
     height: 700px;
     background-size: cover;
     background-position: center;
@@ -91,7 +91,7 @@ section {
             /* donate today section end */
 
             /* our donation plan section start */
-.activities {
+.activities, .container {
     width: 80%;
     margin: 50px auto;
     overflow: hidden;
@@ -108,18 +108,38 @@ section {
     height: 50px;
     width: 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
             /* our donation plan section end */
+
+            /* gallery section start */
+.gallery-items {
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+.gallery-items h3 {
+    font-size: 45px;
+}
+.gallery-items div:nth-child(even) {
+    margin-left: 4%;
+}
+.content {
+    width: 48%;
+    float: left;
+}
+.content button {
+    margin-top: 20px;
+}
+.gallery-image {
+    width: 48%;
+    float: left;
+}
+.gallery-image img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+            /* gallery section end */
