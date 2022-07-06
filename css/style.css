@@ -40,21 +40,29 @@ section {
     background-color: #ff5959;
     padding: 15px 25px;
     border: none;
+    border: 1px solid transparent;
     border-radius: 8px;
-    cursor: pointer;    
+    cursor: pointer;
+    transition: .3s;
+}
+.common-button:hover {
+    color: #ff5959;
+    border: 1px solid #ff5959;
+
+    background-color: white;
 }
             /* banner end */
 
             /* donate today section start */
-.donate-today {
+.common-div {
     width: 60%;
     margin: 0 auto;
     text-align: center;
 }
-.donate-today h1 {
+.common-div h1 {
     font-size: 45px;
 }
-.donate-today p {
+.common-div p {
     padding: 0 15%;
 }
 .amount {
@@ -80,5 +88,38 @@ section {
     border-bottom: 1px solid;
     margin-bottom: 15px;
 }
-
             /* donate today section end */
+
+            /* our donation plan section start */
+.activities {
+    width: 80%;
+    margin: 50px auto;
+    overflow: hidden;
+}
+.activities div {
+    width: 30%;
+    float: left;
+    margin-left: 3.3%;
+}
+.activities h3 {
+    margin-top: 1em;
+}
+.activities img {
+    height: 50px;
+    width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+            /* our donation plan section end */
