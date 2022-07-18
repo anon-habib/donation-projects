@@ -141,6 +141,7 @@ section {
 .top-doner {
     display: flex;
     text-align: center;
+    align-items: center;
 }
 .single-image {
     width: 25%;
